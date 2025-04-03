@@ -26,7 +26,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 - Install PHP
 - install Microsoft Visual C++ Redistributable
   <h2>Steps</h2>
-<h3 align="center">Create Virtual Machine in Azure</h3>
+<h3 align="center">Create a Virtual Machine in Azure</h3>
 <br />
 <p>
 <h3 align="center">First, start by creating a Resource Group inside Azure.</h3>
@@ -40,36 +40,36 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <br />
 </p>
 <p>
-	<img src="https://i.imgur.com/dEF1c7h.png" height="75%" width="100%" />
+	<img src="https://i.imgur.com/dEF1c7h.png height="75%" width=100% />
 </p>
 <br />
 <br />
 <h3 align="center">Open the Remote Desktop Connection app on your computer and connect to the Virtual Machine created in Azure. </h3>
 <br />
 <p>
-	<img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/2e71fd86-4198-47aa-aa1a-d0aed1b8e0eb"/>
+        <img src="https://i.imgur.com/p6kj5Kf.png height="75%" width=100% />
 	
 
 </p>
 <br />
 <br />
-<h3 align="center">Now we need to install / Enable IIS in Windows. Go to your Search Bar > Type "Control Panel" > Click "Programs" > "Turn Windows features on or off" > Scroll down to "Internet Information Services (IIS).</h3>
+<h3 align="center">Now, we need to install/enable IIS in Windows. Go to the Search Bar > Type “Control Panel” > Click “Programs” > “Turn Windows features on or off” > Scroll down to “Internet Information Services (IIS).</h3>
 <br />
 <p>
-	<img src="https://i.imgur.com/iB0DDRd.png" height="75%" width="100%" />
+	<img src="https://i.imgur.com/iB0DDRd.png" height="75%" width=100% />
 </p>
 <br />
 <br />
-<h3 align="center">Once clicked, find the "Internet Information Services" expand it and then expand the "World Wide Web" tab. Afterward, expand the application Developer tab. Finally check the "CGI" button & press Ok. You will need CGI to download the PHP Manager. The PHP manager is a back-end web programming language that allows osTicket to run off a web browser.</h3>
+<h3 align="center">Once clicked, find “Internet Information Services,” expand it, and then expand the “World Wide Web Services” tab. Afterward, expand the “Application Development” tab. Finally, check the “CGI” option and press OK. You will need CGI to download PHP Manager. PHP is a backend web programming language that allows osTicket to run in a web browser.</h3>
 <br />
 <p>
-  <img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/a6af9c35-e10c-4d7e-b2c8-30ffbe128f08" height="75%" width="100%"/>
+        <img src="https://i.imgur.com/yTlfrhk.png" height="75%" width="100%"/>
 </p>
 <br />
 <h3 align="center">Install PHP Manager</h3>
 <br />
 <p>
-<h3 align="center">Download the PHP manager file, and agree with all the terms. We've now downloaded the PHP manager into our operating system.</h3>
+<h3 align="center">Download the PHP Manager file and agree to the terms. Once installed, PHP Manager will be set up on your operating system.</h3>
 <p>
   <img src="https://i.imgur.com/pmwpPEu.png"height="75%" width="100%"/>
 </p>
@@ -77,18 +77,17 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <h3 align="center">Install Rewrite Module</h3>
 <br />
 <p>
-<h3 align="center">Download the Rewrite Module file, agree with all the terms and it should now be installed onto the Computer.</h3>
+<h3 align="center">Download the Rewrite Module file, agree to the terms, and it should now be installed on the computer.</h3>
 <p>
-  <img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/28cf2dd0-d39e-45f8-a01b-61aec6657228"height="75%" width="100%"/>
+  <img src="https://i.imgur.com/8xvaVyi.png"height="75%" width="100%"/>
 </p>
 <br/>
 <h3 align="center">CREATE DIRECTORY C:\PHP</h3>
 <br />
 <p>
-<h3 align="center"> Open File Explorer, type, "C:\" in the search bar, Right-click and create a new folder called, "PHP". Download php-7.3.8-nts-Win32-VC15-x86.zip from<a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> Files You Need to Download</a>, Extract it by going to where you download the file, Right-click the PHP 7.3.8 file and press extract to the PHP Folder you just created.
-</h3>
+<h3 align="center"> Open File Explorer, type “C:" in the address bar, then right-click and create a new folder named “PHP.” Download php-7.3.8-nts-Win32-VC15-x86.zip from <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> Files you need to Download section.</a> To extract it, navigate to the downloaded file, right-click the PHP file, and select “Extract to” the PHP folder you just created.</h3>
 <p>
-  <img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/18746085-a3cf-4f1f-b0d5-5cd73f969319"height="75%" width="100%"/>
+  <img src="https://i.imgur.com/78eCamw.png"height="75%" width="100%"/>
 </p>
 <br/>
 <h3 align="center">VC_REDIST DOWNLOAD</h3>
