@@ -92,15 +92,14 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <br/>
 <h3 align="center">VC_REDIST DOWNLOAD</h3>
 <br/>
-<h3 align="center"> Download and install VC_Redist, Agree with any terms and agreements and finish installing.
+<h3 align="center"> Download VC_Redist, agree to the terms, and it should now be installed on the computer.
 </h3>
 <p>
   <img src="https://i.imgur.com/Gx8ryBV.png"75%" width="100%"/>
 </p>
 <br/>
 <h3 align="center">DOWNLOAD MySQL </h3>
-<h3 align="center"> Download and install MySQL, Agree with any terms and agreements up until you get to the password portion. Here you can create a username and password for the database that you'll be using to store the Ticket Information used in osTicket. 
-</h3>
+<h3 align="center"> Download and install MySQL, agreeing to the terms and conditions. When you reach the password setup, create a username and password for the database that will store the ticket information used in osTicket.</h3>
 <p>
   <img src="https://i.imgur.com/IVpLg40.png"75%" width="100%"/>
 <br/>
@@ -165,7 +164,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Enable: php_opcache.dll:
 </p>
 <p>
-	<img src="https://imgur.com/a/nrQo0kz" height="75%" width="100%"/>
+	<img src="https://i.imgur.com/RUNSTVI.png" height="75%" width="100%"/>
 </p>
 <br />
 <br />
